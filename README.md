@@ -8,47 +8,33 @@
 ## DESCRIPTION
 DEDSEC_ZIPHITE is capable of rapidly and efficiently injecting malicious code into legitimate Python scripts without requiring root privileges to extract information. This enables it to discreetly harvest sensitive user data, including browser-stored passwords, browsing history, downloads, bookmarks, cookies, host IP address, and username. The injected payload runs silently in the background, evading detection. Additionally, the output of this code is compiled into a binary, further obscuring its presence and making it more difficult to trace.
 
-# information dump
- * username
- * public ip
- * terminal history (bash/zsh)
- * ssh keys
- * discord token
- * system info
- * wifi creds
- * browser history
- * browser password
- * browser downlaods
- * browser cookies
- * browser bookmarks
-
-# SUPPORTED SOFTWARE
+## INFO DUMP TABLE:
   
-| Browser            | 
-|:-------------------|
-| Google Chrome      | 
-| Google Chrome Beta | 
-| Chromium           |   
-| Microsoft Edge Dev | 
-| Brave              | 
-| Opera              |
-| Vivaldi            |
-| Firefox            |
-| Firefox Beta       |
-| Firefox Dev        |
-| Firefox ESR        |
-| Firefox Nightly    |
-
+| System info |  Dump Info       | Support Browser   | 
+|:------------|:-----------------|:-------------------|
+| os name     | terminal history (bash/zsh) | Google Chrome      | 
+| os version  | ssh keys         | Google Chrome Beta | 
+| arch        | browser history  | Chromium           |   
+| Distro      | browser password | Microsoft Edge Dev | 
+| graphics    | browser downloads| Brave              | 
+| Host        | browser cookies  | Opera              |
+| Cores       | browser bookmarks| Vivaldi            |
+| kernel      | wifi ssid,pass   | Firefox            |
+| shell       | discord token    | Firefox Beta       |
+| resolution  | public IP        | Firefox Dev        |
+| DE          | Hostname         | Firefox ESR        |
+| GPU         | Execution type   | Firefox Nightly    |
 
 ## INSTALLATION 
     * git clone https://github.com/0xbitx/DEDSEC_ZIPHITE.git
-    * cd DEDSEC_PALAMAN
+    * cd DEDSEC_ZIPHITE
     * chmod +x dedsec_ziphite
     * sudo ./dedsec_ziphite
 
 ### TESTED ON FOLLOWING
 * Kali Linux 
-* Parrot OS 
+* Parrot OS
+* Ubuntu
 
 ## Support
 
