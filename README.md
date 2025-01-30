@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Vka3U5cXhtaWhndXd1ejZ4d2M5NGQ4aWVkYWUzYmg1cTJ5M2NxYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d3mn0OYWkFeegIa4/giphy.gif", width="500">
+<img src="https://media0.giphy.com/media/l41lGnxllmN3YqOyI/200w.webp", width="300">
 </p>
 <h1 align="center"> DEDSEC_ZIPHITE</h1>
 <h4 align="center">DEDSEC_ZIPHITE is a Linux-based tool that injects covert malicious code into a legitimate Python script.</h4>
