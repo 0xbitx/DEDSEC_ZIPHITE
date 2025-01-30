@@ -6,7 +6,7 @@
 <h4 align="center">DEDSEC_ZIPHITE is a Linux-based tool that injects covert malicious code into a legitimate Python script.</h4>
 
 ## DESCRIPTION
-DEDSEC_ZIPHITE is capable of rapidly and efficiently injecting malicious code into legitimate Python scripts without requiring root privileges to extract information. This enables it to discreetly harvest sensitive user data, including browser-stored passwords, browsing history, downloads, bookmarks, cookies, host IP address, and username. The injected payload runs silently in the background, evading detection. Additionally, the output of this code is compiled into a binary, further obscuring its presence and making it more difficult to trace.
+DEDSEC_ZIPHITE is designed to quickly and efficiently inject malicious code into legitimate Python scripts without the need for root privileges to extract sensitive information. This allows it to quietly collect user data, such as browser-saved passwords, browsing history, downloads, bookmarks, cookies, host IP address, and usernames. The injected payload operates silently in the background, avoiding detection. Additionally, the output is compiled into a binary, further concealing its presence and making it harder to trace. The server for this payload communicates via Discord or utilizes a webhook to send the harvested data back to the attacker.
 
 ## INFO DUMP TABLE:
   
