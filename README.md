@@ -8,6 +8,18 @@
 ## DESCRIPTION
 DEDSEC_ZIPHITE is designed to quickly and efficiently inject malicious code into legitimate Python scripts without the need for root privileges to extract sensitive information. This allows it to quietly collect user data, such as browser-saved passwords, browsing history, downloads, bookmarks, cookies, host IP address, and usernames. The injected payload operates silently in the background, avoiding detection. Additionally, the output is compiled into a binary, further concealing its presence and making it harder to trace. The server for this payload communicates via Discord or utilizes a webhook to send the harvested data back to the attacker.
 
+## Features
+
+  * Undetectable Payload – Bypasses all antivirus detections for stealth execution.
+  * Binary Compilation – Easily compile the payload into an executable format for seamless deployment.
+  * Fast & Lightweight – Optimized for speed and minimal resource usage.
+  * Custom Payload Generation – Inject payload with your legitimate code.
+  * Encrypted Payloads – Uses advanced encryption to evade signature-based detection.
+  * Obfuscation Techniques – Implements multiple layers of obfuscation for enhanced stealth.
+  * No Dependencies – Runs standalone without requiring additional libraries or frameworks.
+  * Silent Execution – No console output or suspicious activity during runtime.
+  * Multi-Linux Distro Support – Compatible with Ubuntu, Linux Mint, Parrot OS, Kali Linux, Debian, and more.
+
 ## INFO DUMP TABLE:
   
 | System info |  Dump Info       | Support Browser   | 
